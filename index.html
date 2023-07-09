@@ -10,7 +10,118 @@
 	<header>
 		<h1 style="color: dodgerblue;">LEARN <span id="letter-c">C</span><span id="letter-s1">S</span><span id="letter-s2">S</span></h1>
 	</header>
-	
+	<div class="flex-container">
 
+
+  <div class="flex-child magenta">
+    <div class="topics">INTRODUCTION TO CSS</div>
+		<div class="topics">BOX-MODEL</div>
+		<div class="topics"></div>
+		<div class="topics"></div>
+		<div class="topics"></div>
+		<div class="topics"></div>
+  </div>
+  
+  <div class="flex-child green">
+  	<div>
+  		<h1> BOX-MODEL </h1>
+  		<p class="center-paragragh">
+  			Box model is the most fundamental topic in css, undertanding box-model will guide you to you make the best decision in designing your web pages. Everything displayed by css is a box. the following podcast explains in detail the box model: <a href="https://web.dev/learn/css/box-model/">Box-Model</a>
+  		</p>
+  		<p>
+  			<img class="b-model-pic" src="b-model.png">
+  		</p>
+  		<p class="center-paragragh">
+  			The maroon color which is the innermost box is the content box. The content box contains the content of the element. it could be a text, a picture or what ever you decide to put in it.
+  		</p>
+  		<p class="center-paragragh">
+  			The padding box is the first box outside the content box.The padding box is used to create spaces around the content.We will see this in detail later.
+  		</p>
+  		<p class="center-paragragh">
+  			The border box is outside the padding box. The border box is like the frame that surrounds pcitures.
+  		</p>
+  		<p class="center-paragragh">
+  			The margin box it the outermost box in the mox model. The margin box creates spaces between element. The margin box does not affect the size of an elemnt but the other boxes do.
+  		</p>
+
+  		<p class="center-paragragh">
+  			Lets look at a practical example of how the box model works <br>
+  		</p>
+  		<p>
+  			<div class="container">
+	<span class="box-1">
+		<span class="content">ELEMENT 1</span>
+	</span>
+	<span class="box-2">
+		<span class="content">ELEMENT 2</span>
+	</span>
+	</div>
+  		</p>
+  		<p class="center-paragragh1">
+  			The above is a practical example of the border box. The texts ELEMENT 1 and ELEMENT 2  are the contents, outside of the text is the padding and then the yellow box is the border box. The space between the the two element is the margin. I have provided the code below. you can play around with it <a href="https://www.tutorialspoint.com/online_html_editor.php">here</a>
+   		</p>
+   		<p class="center-paragragh">
+   			
+   			<textarea >
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.container
+{
+	padding-top: 40px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.box-1
+{
+	background-color: brown;
+	padding: 20px;
+	border: solid 5px yellow;
+	color: white;
+}
+.box-2
+{
+	padding: 20px;
+	border: solid 5px yellow;
+	margin-left: 10px;
+	background-color: brown;
+	color: white;
+}
+
+.content
+{
+	background-color: black;
+}
+	</style>
+</head>
+<body>
+	<header>
+	</header>
+	<div class="container">
+	<span class="box-1">
+		<span class="content">ELEMENT 1</span>
+	</span>
+	<span class="box-2">
+		<span class="content">ELEMENT 2</span>
+	</span>
+	</div>
+
+</body>
+</html>
+   			</textarea>
+
+   		</p>
+  		
+    
+  </div>
+  
+</div>
+</div>
 </body>
 </html>
