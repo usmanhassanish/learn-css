@@ -185,6 +185,10 @@ textarea
       margin-left: auto;
       margin-right: auto;
   }
+  #logo
+  {
+    margin-top: 5px;
+  }
 
    
 }
